@@ -1,7 +1,7 @@
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../../assets/img/bg-masthead.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -130,7 +130,7 @@ header.masthead {
     width: 3840px;
     height: 720px;
     background-color: #d31515;
-    background-image: url("../assets/img/images1.jfif");
+    background-image: url("../../assets/img/images1.jfif");
     background-size: contain;
     animation: defilement1 10s linear infinite;
 }
@@ -139,7 +139,7 @@ header.masthead {
   width: 3840px;
   height: 720px;
   background-color: #d31515;
-  background-image: url("../assets/img/images2.jfif");
+  background-image: url("../../assets/img/images2.jfif");
   background-size: contain;
   animation: defilement1 10s linear infinite;
 }

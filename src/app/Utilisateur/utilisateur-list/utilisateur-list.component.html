@@ -1,0 +1,22 @@
+<table>
+    <thead>
+        <tr>
+            <th> First Name </th>
+            <th> Last Name </th>
+            <th> Email </th>
+            <th> age </th>
+            <th>action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let u of utilisateurs">
+            <td> {{u.firstName}} </td>
+            <td>{{u.lastName}}</td>
+            <td>{{u.email}}</td>
+            <td>{{u.age}}</td>
+            <td>
+                    <button>ok</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
